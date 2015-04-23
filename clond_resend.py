@@ -25,7 +25,7 @@ class Clond_resend:
         fh.setFormatter(formatter)
         self.logger.addHandler(fh)
 
-        self.client = MongoClient("10.40.18.12", 27017)
+        self.client = MongoClient("******", *****)
         self.table = self.client.info.inte_clond_reform
 
     def sign(self, d):
