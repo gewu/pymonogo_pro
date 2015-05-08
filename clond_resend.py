@@ -8,10 +8,8 @@ import json
 import logging
 from pymongo import MongoClient 
 
-#CIP_API_URL = "http://testugc.map.baidu.com:8482/task-manager/task/import"
-CIP_API_URL = "http://task-private.ugc.map.baidu.com:8080/task/import" 
-#CIP_API_URL2 = "http://task-private.ugc.map.baidu.com:8080/task/import"
-SIGN_KEY = "Luffyinfo20140723@@xyzGoodLucy!!"
+CIP_API_URL = "" 
+SIGN_KEY = ""
 
 intelligence_dict = {10: "广播来源开通关闭情报", 11: "网页来源", 12: "微博抓取开通关闭情报" }
 
